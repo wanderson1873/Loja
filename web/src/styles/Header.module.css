@@ -1,0 +1,25 @@
+.header {
+   margin-bottom: 2rem;
+}
+
+.header ul {
+   display: flex;
+   list-style: none;
+   padding: 0;
+   margin: 0;
+}
+.header ul li {
+   margin-right: 1rem;
+}
+
+.link {
+   display: block;
+   font-size: 1.2rem;
+   background: #eee;
+   padding: 0.5rem 1rem;
+}
+
+.active,
+.link:hover {
+   background: #ddd;
+}
