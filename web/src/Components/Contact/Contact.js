@@ -1,7 +1,7 @@
 import React from 'react'
-import style from '../styles/Contact.module.css'
-import imgContact from '../img/contact.jpg'
-import Head from './Head'
+import style from '../Contact.module.css'
+import imgContact from '../../img/contact.jpg'
+import Head from '../Head'
 
 const Contact = () => {
    return (
