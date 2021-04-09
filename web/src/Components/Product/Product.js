@@ -1,7 +1,7 @@
 import React from 'react'
-import Head from './Head'
+import Head from '../Head'
 import { useParams } from 'react-router'
-import style from '../styles/Product.module.css'
+import style from './Product.module.css'
 
 const Product = () => {
    const [product, setProduct] = React.useState(null)

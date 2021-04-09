@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import style from '../styles/Products.module.css'
+import style from './Products.module.css'
 
 const Products = () => {
    const [products, setProducts] = React.useState(null)
